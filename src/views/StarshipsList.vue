@@ -10,7 +10,7 @@
         <ul class="list">
             <li 
                 v-for="(starship, index) in paginatedItems"
-                :key="starship"
+                :key="index"
                 @click="toStarshipInfo(+index)"
             >
             {{ starship.name }}
