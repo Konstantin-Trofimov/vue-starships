@@ -21,7 +21,7 @@ export default {
 		mounted() {
 			this.FEATCH_DATA_TO_API().then(response => {
 					if (response) {
-						this.isLoading = false
+						this.isLoading = false;
 				}
 			})
 		}
